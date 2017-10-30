@@ -1,0 +1,130 @@
+/*
+    BIG TABLET TO 1200px (IPAD)
+*/
+@media only screen and (max-width: 1200px) {
+    
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+    .plan-box div {
+        padding: 40px;
+    }
+    
+    .contact-form {
+        width: 65%;
+    }
+
+}
+
+/*
+    SMALL TABLET TO BIG TABLET: FROM 768 TO 1023px;
+*/
+@media only screen and (max-width: 1023px) {
+ 
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 70px; }
+    .works-steps { margin-bottom: 30px; }
+    .works-step:last-of-type { margin-bottom: 30px; }
+    .app-screen { width: 50%; }
+
+    .btn-app img { 
+        height: 50px; 
+        margin-right: 5px;
+    }
+    
+    .icon-small { 
+        width: 10px; 
+        margin-right: 10px;
+    }
+    
+    .city-feature { font-size: 90%; }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-box div {
+        padding: 15px;
+    }
+    
+    .plan-price {
+        font-size: 250%;
+    }
+    
+    .contact-form {
+        width: 80%;
+    }
+    
+    .footer-nav li, .social-links li {
+        margin-right: 10px;
+    }
+    
+    .footer {
+        font-size: 70%;
+    }
+}
+
+
+/*
+    SMALL PHONES TO SMALL TABLETS: FROM 481 TO 767px;
+*/
+@media only screen and (max-width: 767px) {
+    
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 90%;
+        margin: 0 0 1% 0%;
+    }
+    .main-nav { display: none };
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy {
+        line-height: 125%;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0;
+        margin-left: 15px;
+    }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+        
+    }
+}
+
+/*
+    SMALL PHONES: FROM 0 TO 480px;
+    these rules will aply when the width of 
+    device or browser is less or equal than 480 pixels
+*/
+@media only screen and (max-width: 480px) {
+    
+}
+
